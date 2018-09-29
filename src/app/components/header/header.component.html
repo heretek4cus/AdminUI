@@ -1,0 +1,27 @@
+<div class="header row">
+  <div class="header_left_col col-lg-10 col-md-9 col-8">
+    <div class="logo">
+      <img src="assets/images/logo.png" class="logo_image">
+    </div>
+    <div class="prop_name">
+      Eagle Constructions
+    </div>
+  </div>
+  <div class="header_right_col col-lg-2 col-md-3 col-4">
+    <span class="profile">
+        <img src="{{loginUser.img}}">
+    </span>
+    <span>
+      <div class="dropdown">
+          <button class="btn profile_btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            {{loginUser.username}}
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Logout</a>
+            <a class="dropdown-item" href="#">Edit Profile</a>
+            <a class="dropdown-item" href="#">Contact Support</a>
+          </div>
+        </div>
+    </span>
+  </div>
+</div>

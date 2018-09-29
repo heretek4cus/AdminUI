@@ -1,0 +1,51 @@
+<form id="searchForm" class="pad-top"  >
+    <div class="form-group">
+      <input type="text" class="form-control" placeholder="Search" >
+    </div>
+    <div class="dropdown pad-right">
+        <button class="btn btn-primary dropdown-toggle button_size" type="button" data-toggle="dropdown">Show All
+        <span class="caret"></span></button>
+        <ul class="dropdown-menu">
+          <li><a href="#">Active</a></li>
+          <li><a href="#">Inactive</a></li>
+        </ul>
+      </div>
+    <button type="button" class="btn btn-primary button_size" data-toggle="modal" data-target="#addresidentmodal" >
+      Add Resident
+      </button>
+  </form>
+  <create-new></create-new>
+  <div class="table-responsive">
+      <table class="table custom_table">
+         <thead>
+            <tr>
+              <th class="table-heading">Name</th>
+              <th class="table-heading">Type</th>
+              <th class="table-heading">Block Name</th>
+              <th class="table-heading">Unit#</th>
+              <th class="table-heading">Last Login</th>
+              <th class="table-heading">Status</th>
+              <th></th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr *ngFor='let doc of documentupload' class="spaceUnder">
+              <td>{{doc?.name}}</td>
+              <td>{{doc?.type}}</td>
+              <td>{{doc?.blockname}}</td>
+              <td>{{doc?.unit}}</td>
+              <td>{{doc?.lastlogin}}</td>
+              <td>{{doc?.status}}</td>
+              <td>       
+                  <i class="fa fa-eye" aria-hidden="true"></i>
+                  <i class="fa fa-pencil" aria-hidden="true"></i>
+                  <i class="fa fa-trash" aria-hidden="true"></i>
+              </td>
+            </tr>
+         </tbody>
+      </table>
+    </div>
+    <div>
+      <app-pager></app-pager>
+    </div>
+    

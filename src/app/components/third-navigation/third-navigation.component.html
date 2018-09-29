@@ -1,0 +1,12 @@
+<div class="third_nav container-fluid">
+  <ul class="third_main_nav justify-content-center">
+    <li class="nav-item" *ngFor="let link of data.navLinks; let i=index">
+      <a class="nav-link" (click)="onMenuClick($event, link)" [ngClass]="{active: i==data.navStatus}">{{link.lable}}</a>
+    </li>
+  </ul>
+  <ul class="nav justify-content-center"  *ngIf="data.subNavLinks.length">
+    <li class="nav-item" *ngFor="let link of data.subNavLinks; let i=index">
+      <a class="nav-link" (click)="onMenuClick($event, link)" [ngClass]="{active: i==data.subNavStatus}">{{link.lable}}</a>
+    </li>
+  </ul>
+</div><!--third_nav-->

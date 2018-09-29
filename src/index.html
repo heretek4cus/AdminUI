@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Myapp</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
+  <!-- <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" , "styles.css"> -->
+  <!-- <script src="../node_modules/jquery/dist/jquery.min.js "></script> -->
+  <script src="./assets/js/_js.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#after_click").slideToggle(1000);
+    });
+});
+</script>
+  <!-- <script src="../node_modules/bootstrap/dist/js/bootstrap.js "></script> -->
+</head>
+
+<body class="app_container">
+  <app-root></app-root>
+</body>
+
+</html>

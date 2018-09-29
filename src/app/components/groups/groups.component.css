@@ -1,0 +1,54 @@
+.content-wrap{
+  width: 85%;
+  margin: 0px auto;
+}
+
+.notice-main {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 18px;
+  font-family: Montserrat-Light;
+}
+
+.modal-header {
+  display: block !important;
+}
+/** */
+.inner-addon {
+  position: relative;
+}
+
+/* style glyph */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align glyph */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+.form-check-label {
+  padding-left: 0px;
+  padding-right: 1.25rem;
+}
+.modal-header {
+  display: block !important;
+  background-color: #173857;
+  color: #fff;
+  border-top-left-radius:0;
+    border-top-right-radius:0;
+}
+.modal-content{border-radius: 0;}
+.modal-dialog .form-control{border-radius: 0;}
+.close{
+  text-shadow: none;
+  opacity: 1;
+    color: #fff;
+    font-size: 34px;
+}

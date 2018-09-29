@@ -1,0 +1,61 @@
+.content-wrap{
+    width: 85%;
+    margin: 0px auto;
+}
+.residents_approval_tab{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 18px;
+   
+}
+.residents_approval_tab .panel-title, .discussion_approval_tab .panel-title{
+    position: relative;
+    padding-left: 20px;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+a{
+    color: #007bff !important;
+    text-decoration: none !important;
+    background-color: transparent;
+}
+a:hover{
+    color: #0056b3 !important;
+    text-decoration: none;
+}
+.residents_approval_content, .discussion_approval_content{
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 40px;
+}
+.mBottom6per{
+    margin-bottom: 6%;
+}
+.residents_approval_tab .panel-title[aria-expanded="true"]::after, .discussion_approval_tab .panel-title[aria-expanded="true"]::after{
+    content: "\f106";
+    color: #4F87FB;
+}
+.residents_approval_tab .panel-title[aria-expanded="false"]::after, .discussion_approval_tab .panel-title[aria-expanded="false"]::after{
+    content: "\f107";
+    color: #4F87FB;
+}
+.residents_approval_tab .panel-title::after, .discussion_approval_tab .panel-title::after {
+    color: #333;
+    top: -2px;
+    left: 0px;
+    position: absolute;
+    font-family: "FontAwesome"; 
+}
+app-usercard{
+    float:left;
+}
+app-userdetail-card-regist {
+    float: left;
+}
+common-pager{
+    float: left;
+}

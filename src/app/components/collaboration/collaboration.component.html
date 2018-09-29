@@ -1,0 +1,5 @@
+<app-third-navigation [data]="data" (menuClick)="showData($event)"></app-third-navigation>
+<app-notices [childMessage]="data.parentMessage" *ngIf="data.parentMessage == 'Notices'"></app-notices>
+<app-events *ngIf="data.parentMessage == 'Events'"></app-events>
+<app-discussion-forum *ngIf="data.parentMessage == 'Discussion Forum'"></app-discussion-forum>
+<app-groups *ngIf="data.parentMessage == 'Groups'"></app-groups>

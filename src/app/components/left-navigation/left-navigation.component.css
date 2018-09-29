@@ -1,0 +1,36 @@
+/* .left_nav{
+    position: fixed;
+    height: 90%;
+    width: 8%;
+    background: #16314D;
+    margin: -.06%;
+} */
+
+.left_nav {
+    height: 100%;
+    margin-top: 25px;
+    padding-top: 20px; 
+    width: 100px;
+}
+
+.dashboard{
+    text-align: center;
+    padding-top: 30%;
+    cursor: pointer;
+}
+
+.text{
+    color: #F4F8F8;
+   font-family: 'Montserrat', sans-serif !important;
+    text-align:center;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.text a {
+    color: #F4F8F8;
+}
+
+.text a .active {
+    color: rgb(138, 207, 207);
+}

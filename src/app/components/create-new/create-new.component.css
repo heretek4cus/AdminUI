@@ -1,0 +1,31 @@
+.modal-header {
+  display: block !important;
+  background-color: #173857;
+  color: #fff;
+  border-top-left-radius:0;
+    border-top-right-radius:0;
+}
+.modal-content{border-radius: 0;}
+.modal-dialog .form-control{border-radius: 0;}
+.close{
+  text-shadow: none;
+  opacity: 1;
+    color: #fff;
+    font-size: 34px;
+}
+
+.form-check-label{
+    font-size: .8rem;
+    
+}
+.check-label{
+    font-size: .8rem;
+}
+ .control-label{
+     margin-top: 10px;
+ }
+
+
+ .modal-footer{
+     padding: 15px 180px;
+ }

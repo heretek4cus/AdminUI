@@ -1,0 +1,27 @@
+
+<table datatable [dtOptions]="dtOptions" class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Unit#</th>
+            <th>Date Added</th>
+            <th>Status</th>
+            <th></th>
+        </tr>    
+    </thead>
+    <tbody>
+        <tr *ngFor="let tdata of tableData">
+            <td>{{tdata.name}}</td>
+            <td>{{tdata.type}}</td>
+            <td>{{tdata.unit}}</td>
+            <td>{{tdata.date_added}}</td>
+            <td>{{tdata.status}}</td>
+            <td>
+                <i class="fa fa-eye" aria-hidden="true"></i>
+                <i class="fa fa-pencil" aria-hidden="true"></i>
+                <i class="fa fa-trash" aria-hidden="true"></i>
+            </td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,158 @@
+.residents_approval_content, .discussion_approval_content {
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 40px;
+}
+.search_bar_row .search_bar input {
+    border-color: #eee;
+    height: 45px;
+    font-family: Montserrat-Light;
+    color: #ddd;
+}
+.info_pagination_row {
+    padding-top: 20px;
+}
+.info_block {
+    float: right;
+    padding-right: 25px;
+}
+.info_pagination_row .info_block {
+    float: left;
+}
+.info_pagination_row .admin_col {
+    background-color: #8E7CDE;
+}
+.info_block .color_box {
+    width: 12px;
+    height: 12px;
+    float: left;
+    margin-top: 3px;
+}
+.info_block .color_inf {
+    color: #bcbcbc;
+    float: left;
+    padding-left: 10px;
+    align-items: center;
+    font-family: Montserrat-Light;
+}
+.info_pagination_row .assoc_col {
+    background-color: #39B82B;
+}
+.info_pagination_row .mem_col {
+    background-color: #F9C13A;
+}
+.residents_table thead th {
+    border-top: none;
+    border-bottom: none;
+    color: #6F7C8B;
+}
+
+.residents_table .admin_color {
+    border-left: 3px solid #8E79E1;
+}
+.residents_table tbody tr td {
+    border-top: 15px solid #F4F8F9;
+    background: #fff;
+    padding: 15px;
+    font-family: Montserrat-Light;
+    min-width: 100px;
+}
+.residents_table tbody tr td{
+    color: #6F7C8B;
+}
+.residents_table tbody tr i {
+    padding-right: 20px;
+    cursor: pointer;
+}
+.residents_table .assoc_color {
+    border-left: 3px solid #39B82B;
+}
+.residents_table .mem_color {
+    border-left: 3px solid #F8C23F;
+}
+.residents_table .admin_color {
+    border-left: 3px solid #8E79E1;
+}
+.info_pagination_row .pagination_block {
+    display: inline-block;
+    float: right;
+}
+:host ::ng-deep .dataTables_filter
+{
+    float: left;
+    text-align: right;
+}
+:host ::ng-deep .dataTables_length{
+    float: right;
+}
+:host ::ng-deep .dataTables_wrapper .dataTables_filter input{
+    border-color: #eee;
+    height: 45px;
+    font-family: Montserrat-Light;
+    color: #ddd;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+}
+:host ::ng-deep .table td, :host ::ng-deep .table th{
+    border:none;
+}
+:host ::ng-deep table.dataTable thead .sorting_asc, :host ::ng-deep table.dataTable thead .sorting{
+    background-image:none;
+    text-align: left;
+    color: #6F7C8B;
+}
+:host ::ng-deep table.dataTable tbody tr{
+    padding: 10px 10px;
+    border-left: 3px solid #8E79E1;
+}
+:host ::ng-deep table.dataTable tbody td{
+    border-top: 15px solid #F4F8F9;
+    background: #fff;
+    padding: 15px;
+    font-family: Montserrat-Light;
+    min-width: 100px;
+    color: #6F7C8B;
+}
+:host ::ng-deep table.dataTable{
+    border-collapse: collapse;
+}
+:host ::ng-deep table.dataTable.no-footer{
+    border-bottom: none;
+}
+:host ::ng-deep .dataTables_wrapper .dataTables_paginate .paginate_button.current, 
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #007bff !important;
+    background-color: #fff;
+    border: 1px solid #dee2e6 !important;
+    background: none;
+}
+:host ::ng-deep .dataTables_paginate.paging_simple_numbers{
+    display: flex;
+}
+:host ::ng-deep .dataTables_wrapper .dataTables_paginate .paginate_button{
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #007bff !important;
+    background-color: #fff;
+    border: 1px solid #dee2e6 !important;
+    background: none;
+}
+:host ::ng-deep table.dataTable tbody td:last-child i{
+    margin-left:10px;
+    cursor: pointer;
+}
+
+

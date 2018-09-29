@@ -1,0 +1,33 @@
+.check-label {
+    font-size: 8pt;
+}
+
+.input-sm{
+ border-radius: 0px;
+}
+
+.modal-header {
+    display: block !important;
+    background-color: #173857;
+    color: #fff;
+    
+  }
+
+.modal
+{
+    border-radius: 0px;
+}
+.modal-content{
+    border-radius: 0px;
+}
+.close{
+    text-shadow: none;
+    opacity: 1;
+      color: #fff;
+      font-size: 34px;
+      margin: -45px -15px -15px auto;
+  }
+  .modal-title{
+     max-width: 400px;
+     margin: 0px;
+  }

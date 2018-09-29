@@ -1,0 +1,64 @@
+.card{
+  border: none;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
+  font-family: 'Montserrat', sans-serif !important;
+}
+.card .card-body {
+  padding-bottom: 0px;
+}
+.card .card-body .title_circle {
+  background: #D5F7EB;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  text-align: center;
+  display: inline-block;
+  padding-top: 10px;
+  float: left;
+}
+.rounded-circle {
+  border-radius: 50%!important;
+}
+.card .card-body .card-title {
+  display: inline-block;
+  font-size: 15px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-left: 25px;
+  color: #6F7C8B;
+}
+.card .card-body .card_info {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  line-height: 2.5;
+}
+.card .card-body .card_info .res_title {
+  color: #c5c5c5;
+}
+.card .card-body .card_info .res_val {
+  font-family: Montserrat-Light;
+  color: #6F7C8B;
+}
+.align-middle {
+  vertical-align: middle!important;
+}
+.card .card-body .left_col {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.card .card-body .right_col {
+  border-left: 1px solid #ddd;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.text-center {
+  text-align: center!important;
+}
+
+.thumbnail{background-color: #fff;border-radius: 10px;margin-bottom: 20px;}
+.thumbnail .caption{padding:6px 0;}
+.thumbnail .caption p{padding-bottom: 0;margin-bottom: 0;}
+.thumbnail img{border-top-left-radius:10px;border-top-right-radius:10px; }

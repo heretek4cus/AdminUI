@@ -1,0 +1,118 @@
+.content-wrap{
+  width: 85%;
+  margin: 0px auto;
+}
+.residents_approval_tab{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif !important;
+}
+.residents_approval_tab .panel-title, .discussion_approval_tab .panel-title{
+  position: relative;
+  padding-left: 20px;
+}
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+a{
+  color: #007bff !important;
+  text-decoration: none !important;
+  background-color: transparent;
+}
+a:hover{
+  color: #0056b3 !important;
+  text-decoration: none;
+}
+.residents_approval_content, .discussion_approval_content{
+  width: 100%;
+  float: left;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 40px;
+}
+app-usercard{
+  float:left;
+}
+
+.modal-header {
+  display: block !important;
+  background-color: #173857;
+  color: #fff;
+  border-top-left-radius:0;
+    border-top-right-radius:0;
+}
+.modal-content{border-radius: 0;}
+.modal-dialog .form-control{border-radius: 0;}
+.close{
+  text-shadow: none;
+  opacity: 1;
+    color: #fff;
+    font-size: 34px;
+}
+/** */
+.inner-addon {
+  position: relative;
+}
+
+/* style glyph */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align glyph */
+.left-addon .glyphicon  { left:  0px;color:#ced4da;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px;font-family: 'Montserrat', sans-serif !important; }
+.right-addon input { padding-right: 30px;font-family: 'Montserrat', sans-serif !important; }
+
+.form-check-label {
+  padding-left: 0px;
+  padding-right: 1.25rem;
+}
+.form-control {
+      border: 1px solid #ced4da;
+      /*box-shadow: 2px 2px 2px 1px #eee;*/
+
+  }
+
+  .pagination {
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.pagination a {
+    color: #ddd !important;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.pagination a.active {
+    background-color: #f77f3c;
+    color: #fff;
+    border: 1px solid #f77f3c;
+}
+
+.pagination a:hover:not(.active) {background-color: #f77f3c;}
+
+.pagination a:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.pagination a:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+

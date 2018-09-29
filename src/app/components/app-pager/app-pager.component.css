@@ -1,0 +1,27 @@
+.colorcode{
+    height: 10px;
+    width: 10px;
+    float: left;
+    margin-top: 8px;
+    margin-left:5px;
+}
+.admin_col{
+    background-color: #8E79E1;
+}
+.textcode{
+    font-size: 10px;
+    padding-left: 5px;
+}
+.assoc_col{
+    background-color: #39B82B;
+}
+.prop_col{
+    background-color:  #F9C13A;
+}
+
+.flex_box{
+    display: flex;
+}
+.pagination_block{
+    margin-left: 500px;
+}

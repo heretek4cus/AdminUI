@@ -1,0 +1,11 @@
+.bodyc {
+  height: 100%;
+  width: 100%;  
+  font-family: 'Arial';
+  font-weight: 540;
+  background: #F4F8F9;
+  font-size: 14px;
+  color: rgb(48, 54, 59);
+  min-height: 200px;
+}
+/*main_nav*/

@@ -1,0 +1,44 @@
+<div class="tabContentContainer content-wrap container-fluid" *ngFor="let sample of sampleData; let i = index">
+    <div class="residents_approval row">
+        <div class="residents_approval_tab"> 
+        <a data-toggle="collapse" class="panel-title" data-target="#residentsContents" role="button" aria-expanded="true" aria-controls="residentsContents">  {{sample.heading}} </a>
+        </div> <!--residents_approval_tab-->
+
+        <div class="residents_approval_content">
+            <div class="collapse multi-collapse show" id="residentsContents">
+                <app-usercard  *ngFor="let data of sample.data"></app-usercard>
+                <common-pager></common-pager>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="tabContentContainer content-wrap container-fluid" *ngFor="let sample of sampleData1; let i = index">
+    <div class="residents_approval row">
+        <div class="residents_approval_tab"> 
+        <a data-toggle="collapse" class="panel-title" data-target="#residents" role="button" aria-expanded="true" aria-controls="residents">  {{sample.heading}} </a>
+        </div> <!--residents_approval_tab-->
+
+        <div class="residents_approval_content">
+            <div class="collapse multi-collapse show" id="residents">
+                <app-userdetail-card-regist  *ngFor="let data of sample.data"></app-userdetail-card-regist> 
+                <common-pager></common-pager>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="content-wrap container-fluid mBottom6per">
+    <div class="residents_approval row">
+        <div class="residents_approval_tab"> 
+        <a data-toggle="collapse" class="panel-title" href="#residentsTable" role="button" aria-expanded="true" aria-controls="residentsContents">  Residents </a>
+        </div> <!--residents_approval_tab-->
+
+        <div class="residents_approval_content">
+            <div class="collapse multi-collapse show" id="residentsTable">
+                <new-datatable></new-datatable>
+                <add-resident-modal></add-resident-modal>
+            </div>
+        </div>
+    </div>
+</div>

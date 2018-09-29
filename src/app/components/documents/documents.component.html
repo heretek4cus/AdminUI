@@ -1,0 +1,47 @@
+<div class="container custom-container">
+    <div class="text">Documents</div>
+    <form id="searchForm" class="pad-top"  >
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search" >
+        </div>
+        <button type="button" class="btn btn-primary pad-right" data-toggle="modal" data-target="#myModal" >
+            Create New
+          </button>
+      </form>
+      <create-new></create-new>
+      <div class="table-responsive">
+          <table class="table custom_table">
+             <thead>
+                <tr>
+                  <th class="table-heading">ID#</th>
+                  <th class="table-heading">Document Name</th>
+                  <th class="table-heading">Attachments</th>
+                  <th class="table-heading">Date and Time</th>
+                  <th></th>
+                </tr>
+             </thead>
+             <tbody>
+                <tr *ngFor='let doc of documentupload' class="spaceUnder">
+                  <td>{{doc?.docId}}</td>
+                  <td>{{doc?.documentName}}</td>
+                  <td>{{doc?.attachmentCount}}</td>
+                  <td>{{doc?.dateTime}}</td>
+                  <td>
+                      <a href="#">
+                         <i class="fa fa-eye" aria-hidden="true"></i>          
+                      </a>
+                      <a href="#">
+                         <i class="fa fa-pencil" aria-hidden="true"></i>           
+                      </a>
+                      <a href="#" >
+                       <i class="fa fa-trash-o" aria-hidden="true"></i>         
+                      </a>
+                  </td>
+                </tr>
+             </tbody>
+          </table>
+        </div>
+        <div>
+          <app-pager></app-pager>
+        </div>
+</div>

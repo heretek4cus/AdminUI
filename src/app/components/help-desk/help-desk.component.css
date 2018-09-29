@@ -1,0 +1,53 @@
+.mTop4per{
+    margin-top: 4%;
+}
+.ticket-value{
+    font-size: 35px;
+    -webkit-font-smoothing: antialiased;
+}
+.ticket-status{
+    width: 80%;
+}
+.ticket-status td{
+    border-top: none !important;
+    padding: 0px;
+}
+.open-ticket{
+    color: red;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.close-ticket{
+    color: #49ca1f;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.ticket-status tbody:before{
+    width: 0px;
+    height:90px;
+    content: '';
+    border: 0.5px solid #aaaaaa26;
+    position: absolute;
+    margin-left: 28.5%;
+}
+.header-1{
+    box-shadow: 0px -7px 15px 5px #888888;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.header-2{
+    height: 75vh;
+    background-color: #F3F8F9;
+    z-index: -1;
+}
+.help-title{
+    font-size:18px;
+    padding-top: 20px;
+    color:#007bff;
+    padding-bottom: 20px;
+}
+.pos_rig{
+
+    padding-left: 70%;
+    padding-top: 10px;
+}
